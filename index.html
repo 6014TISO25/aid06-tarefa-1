@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Produtos - ValdoRio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <h1>ValdoRio Shop</h1>
+        </div>
+        <nav class="nav-controls">
+            <span id="cart-counter">Carrinho: 0</span>
+            <button id="theme-toggle-btn">Modo Escuro</button>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <section class="catalog-section">
+            <h2>Catálogo de Produtos</h2>
+            <div class="product-grid">
+                <!-- Produto 1 -->
+                <article class="product-card">
+                    <img src="img/produto1.svg" alt="Teclado Mecânico">
+                    <h3>Teclado Mecânico RGB</h3>
+                    <p class="price">49.99 €</p>
+                    <button class="buy-btn">Comprar</button>
+                </article>
+                <!-- Produto 2 -->
+                <article class="product-card">
+                    <img src="img/produto2.svg" alt="Rato Gaming">
+                    <h3>Rato Gaming Sem Fios</h3>
+                    <p class="price">29.99 €</p>
+                    <button class="buy-btn">Comprar</button>
+                </article>
+                <!-- Produto 3 -->
+                <article class="product-card">
+                    <img src="img/produto3.svg" alt="Auscultadores">
+                    <h3>Auscultadores com Mic</h3>
+                    <p class="price">59.99 €</p>
+                    <button class="buy-btn">Comprar</button>
+                </article>
+                <!-- Produto 4 -->
+                <article class="product-card">
+                    <img src="img/produto4.svg" alt="Tapete XXL">
+                    <h3>Tapete de Rato XXL</h3>
+                    <p class="price">19.99 €</p>
+                    <button class="buy-btn">Comprar</button>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="newsletter-container">
+            <h3>Subscreva a nossa Newsletter</h3>
+            <form id="newsletter-form">
+                <input type="email" id="newsletter-email" placeholder="Insira o seu email">
+                <button type="submit">Submeter</button>
+            </form>
+            <div id="form-message"></div>
+        </div>
+        <p>&copy; 2026 Escola Profissional ValdoRio</p>
+    </footer>
+
+    <!-- SCRIPT (posicionado imediatamente antes do fecho do body) -->
+    <script src="js/script.js"></script>
+</body>
+</html>
